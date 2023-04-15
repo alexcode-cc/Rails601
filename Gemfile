@@ -11,6 +11,15 @@ gem 'sqlite3', '~> 1.4'
 gem 'foreman', '~> 0.87.2'
 # Use json to parse json data
 gem 'json', '~> 2.6.3'
+# Use Capistrano for deployment
+gem 'capistrano', '>= 3.17.2'
+gem 'capistrano-rails', '>= 1.6.2'
+gem 'capistrano-passenger', '>= 0.2.1'
+gem 'capistrano-rvm', '>= 0.1.2'
+gem 'ed25519', '>= 1.3.0'
+gem 'bcrypt_pbkdf', '>= 1.1.0'
+gem 'capistrano-rails-console', '~> 2.3.0', require: false
+gem 'capistrano-deploytags', '~> 1.0.0', require: false , group: :development
 # Use Puma as the app server
 gem 'puma', '~> 5.0'
 # Use SCSS for stylesheets
