@@ -1,18 +1,58 @@
-<h1>Pages#about</h1>
-<table>
-  <tr>
-    <td>Rails Version</td>
-    <td/>
-    <td><%= Rails.version %></td>
-  </tr>
-  <tr>
-    <td>Ruby Version</td>
-    <td/>
-    <td><%= RUBY_VERSION %></td>
-  </tr>
-  <tr>
-    <td>Rails Environment</td>
-    <td/>
-    <td><%= Rails.env %></td>
-  </tr>
-</table>
+<h1 style="display:flex; justify-content: center">Info</h1>
+<hr>
+<div style="display:flex; justify-content: center">
+  <table>
+    <tbody>
+      <tr>
+        <td><strong>App Name</strong></td>
+        <td/>
+        <td><strong><%= @app %></strong></td>
+      </tr>
+      <tr>
+        <td>App Version</td>
+        <td/>
+        <td><%= @version %></td>
+      </tr>
+      <tr>
+        <td>Rails Version</td>
+        <td/>
+        <td><%= @rails %></td>
+      </tr>
+      <tr>
+        <td>Ruby Version</td>
+        <td/>
+        <td><%= @ruby %></td>
+      </tr>
+      <tr>
+        <td>Rails Environment</td>
+        <td/>
+        <td><%= @env %></td>
+      </tr>
+      <tr>
+        <td>Rails Database</td>
+        <td/>
+        <td><%= @adapter %></td>
+      </tr>
+      <tr>
+        <td>Host</td>
+        <td/>
+        <td><%= @host %></td>
+      </tr>
+      <tr>
+        <td>Host IP</td>
+        <td/>
+        <td><%= @ip %></td>
+      </tr>
+      <tr>
+        <td>Remote IP</td>
+        <td/>
+        <td><%= @remote_ip %></td>
+      </tr>
+      <tr>
+        <td>Current Time</td>
+        <td/>
+        <td><%= @time %></td>
+      </tr>
+    </tbody>
+  </table>
+</div>

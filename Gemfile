@@ -9,6 +9,8 @@ gem 'rails', '~> 6.1.7', '>= 6.1.7.3'
 gem 'sqlite3', '~> 1.4'
 # Use foreman for run server batch
 gem 'foreman', '~> 0.87.2'
+# Use json to parse json data
+gem 'json', '~> 2.6.3'
 # Use Puma as the app server
 gem 'puma', '~> 5.0'
 # Use SCSS for stylesheets
