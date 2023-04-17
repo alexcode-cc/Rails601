@@ -77,7 +77,7 @@ append :linked_dirs, "log", "tmp/pids", "tmp/cache", "tmp/sockets", "tmp/webpack
 
 # Default value for keep_releases is 5
 # set :keep_releases, 5
-set :keep_releases, 5
+set :keep_releases, 2
 
 set :passenger_restart_with_touch, true
 
