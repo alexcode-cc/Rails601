@@ -1,3 +1,12 @@
+# [0.3.0](https://github.com/alexcode-cc/Rails601/compare/0.2.0...0.3.0) (2023-04-17)
+
+
+### Features
+
+* scaffold board and post ([1d78a31](https://github.com/alexcode-cc/Rails601/commit/1d78a31d26cbe1305f7f32d308c34bcc0f4363dc))
+
+
+
 # [0.2.0](https://github.com/alexcode-cc/Rails601/compare/0.1.1...0.2.0) (2023-04-15)
 
 
